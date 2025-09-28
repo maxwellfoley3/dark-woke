@@ -23,8 +23,6 @@ p {
 	margin-bottom: 20px;
 }
 
-
-
 li {
 	line-height: 1.6;
 }
@@ -114,6 +112,14 @@ li {
 
 #closer {
 	margin-top: 100px;
+}
+
+#image-container {
+	text-align: center;
+}
+
+#image-container img {
+	width: 50%;
 }
 
 @media (min-width:600px)  { 
