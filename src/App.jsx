@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header.jsx';
 import IntroQuotes from './components/IntroQuotes.jsx';
 import Subsection from './components/Subsection.jsx';
+import Comments from './components/Comments.jsx';
 import './App.css';
 
 import darkWokeMilady from '/images/darkwokemilady.jpg';
@@ -59,6 +60,7 @@ const App = () => {
           </i>
           <p>- 777ur7o777a7ma777</p>
         </div>
+        <Comments sectionId={0}/>
       </div>
     </div>
   );
