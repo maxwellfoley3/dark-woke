@@ -53,6 +53,7 @@ const Comments = ({ sectionId }) => {
     if (!newComment.trim() || !author.trim()) return
 
     setLoading(true)
+    const createdAt = new Date().toISOString()
     const { data, error } = await supabase
       .from('comments')
       .insert([
@@ -60,7 +61,7 @@ const Comments = ({ sectionId }) => {
           section_id: sectionId,
           content: newComment,
           author: author,
-          created_at: new Date().toISOString()
+          created_at: createdAt
         }
       ])
 
@@ -69,6 +70,7 @@ const Comments = ({ sectionId }) => {
     } else {
       setNewComment('')
       setAuthor('')
+      setComments(prev => [{ sectionId, content: newComment, author, created_at: createdAt}, ...prev])
     }
     setLoading(false)
   }
