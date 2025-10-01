@@ -7,6 +7,7 @@ import './App.css';
 
 import darkWokeMilady from '/images/darkwokemilady.jpg';
 import nickConvoScreenshot from '/images/nickconvoscreenshot.png';
+import artandwill from '/images/artandwill.png';
 
 const App = () => {
   const subsections = [
@@ -47,6 +48,8 @@ const App = () => {
         <div id="image-container">
           <img src={nickConvoScreenshot} alt="Screenshot of text conversation about hopeful noir" />
         </div>
+        <h2>Dark Woke</h2>
+        <h3>An attempt to start in the middle</h3>
         <div id="subsection">
           {subsections.map((section, index) => (
             <Subsection
@@ -55,6 +58,9 @@ const App = () => {
               abstract={section.abstract}
             />
           ))}
+        </div>
+        <div id="image-container">
+          <img src={artandwill} alt="Screenshot of text conversation about the relationship between art and will" />
         </div>
         <div id="intro-quotes">
           <i>

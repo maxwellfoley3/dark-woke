@@ -4,6 +4,11 @@ body {
     color: #e1e1e1;
 }
 
+#serif {
+	font-family: 'Helvetica', serif;
+	font-weight: bold;
+}
+
 h1 {
 	font-size: 72px;
 }
