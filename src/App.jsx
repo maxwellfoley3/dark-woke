@@ -59,6 +59,20 @@ const App = () => {
             />
           ))}
         </div>
+        <h2>Appeals</h2>
+        <h3>An attempt to speak with brutality</h3>
+        <div id="subsection">
+          <h3>I. The Impossibility of Existing Within Today's Control System</h3>
+        </div>
+        <div id="subsection">
+          <h3>II. The Future We Are Not Necessarily Promised</h3>
+        </div>
+        <div id="subsection">
+          <h3>III. Philosophy, Religion, & Cosmic Evolution </h3>
+        </div>
+        <div id="subsection">
+          <h3>IV. The Mass Subjectivities of Existing Social Platforms</h3>
+        </div>
         <div id="image-container">
           <img src={artandwill} alt="Screenshot of text conversation about the relationship between art and will" />
         </div>
