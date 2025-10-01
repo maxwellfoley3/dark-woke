@@ -120,6 +120,8 @@ li {
 
 #image-container img {
 	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 @media (min-width:600px)  { 

@@ -6,6 +6,7 @@ import Comments from './components/Comments.jsx';
 import './App.css';
 
 import darkWokeMilady from '/images/darkwokemilady.jpg';
+import nickConvoScreenshot from '/images/nickconvoscreenshot.png';
 
 const App = () => {
   const subsections = [
@@ -42,6 +43,9 @@ const App = () => {
         <IntroQuotes />
         <div id="image-container">
           <img src={darkWokeMilady} alt="Dark Woke Milady" />
+        </div>
+        <div id="image-container">
+          <img src={nickConvoScreenshot} alt="Screenshot of text conversation about hopeful noir" />
         </div>
         <div id="subsection">
           {subsections.map((section, index) => (
